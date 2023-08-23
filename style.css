@@ -1,0 +1,19 @@
+#container {
+  font-family: 'Trebuchet MS', sans-serif;
+}
+
+
+.breadcrumbs {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.breadcrumbs ::marker {
+  content: ">";
+}
+
+.breadcrumbs>li {
+  padding-left: 10px;
+}
+
